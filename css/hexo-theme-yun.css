@@ -191,7 +191,7 @@ body::before {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url("https://pic.imgdb.cn/item/60f57b755132923bf8c82e72.png");
+  background-image: url("https://cdn.jsdelivr.net/gh/xiangge332/poto@latest/bolg/background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
