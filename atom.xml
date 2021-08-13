@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>翔哥の小窝</title>
+  
+  <subtitle>欢迎回来</subtitle>
+  <link href="https://xiangge332.top/atom.xml" rel="self"/>
+  
+  <link href="https://xiangge332.top/"/>
+  <updated>2021-08-13T09:39:48.371Z</updated>
+  <id>https://xiangge332.top/</id>
+  
+  <author>
+    <name>xiangge332</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>更新公告</title>
+    <link href="https://xiangge332.top/2021/08/03/update/"/>
+    <id>https://xiangge332.top/2021/08/03/update/</id>
+    <published>2021-08-03T02:43:14.000Z</published>
+    <updated>2021-08-13T09:39:48.371Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="2021-8-13更新内容"><a href="#2021-8-13更新内容" class="headerlink" title="2021.8.13更新内容"></a>2021.8.13更新内容</h2><ul><li>更新了rss<span id="more"></span></li></ul><h2 id="2021-8-3更新内容"><a href="#2021-8-3更新内容" class="headerlink" title="2021.8.3更新内容"></a>2021.8.3更新内容</h2><ul><li>更新了 ‘更新公告’</li></ul><h2 id="2021-8-2更新内容"><a href="#2021-8-2更新内容" class="headerlink" title="2021.8.2更新内容"></a>2021.8.2更新内容</h2><ul><li>有了一个专属域名</li></ul><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+    
+    
+    <summary type="html">自写这篇文章后所更新的部分</summary>
+    
+    
+    
+    <category term="博客" scheme="https://xiangge332.top/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="博客" scheme="https://xiangge332.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo教程-快速创造博客</title>
+    <link href="https://xiangge332.top/2021/07/20/hexo%E6%95%99%E7%A8%8B-%E5%BF%AB%E9%80%9F%E5%88%9B%E9%80%A0%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://xiangge332.top/2021/07/20/hexo%E6%95%99%E7%A8%8B-%E5%BF%AB%E9%80%9F%E5%88%9B%E9%80%A0%E5%8D%9A%E5%AE%A2/</id>
+    <published>2021-07-20T07:43:33.000Z</published>
+    <updated>2021-07-25T08:16:14.382Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="hexo是什么"><a href="#hexo是什么" class="headerlink" title="hexo是什么"></a>hexo是什么</h2><blockquote><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p></blockquote><p>说白了他就是一个可以让你快速制作博客的模板</p><p>官网:<a href="https://hexo.io/zh-cn/">HEXO</a></p><h2 id="安装node-js和Git"><a href="#安装node-js和Git" class="headerlink" title="安装node.js和Git"></a>安装node.js和Git</h2><p>由于hexo是基于node.js写的，所以你需要安装一个node.js</p><ol><li><p>进入<a href="https://nodejs.org/zh-cn/">官网</a>前去下载</p><p><img src="https://cdn.jsdelivr.net/gh/xiangge332/poto@latest/bolg/node.jpg" alt="node" loading="lazy"></p></li></ol><p>2.选择左侧<strong>长期支持版</strong>并下载</p><p>3.开始安装</p><p><img src="https://cdn.jsdelivr.net/gh/xiangge332/poto@latest/bolg/node%E5%AE%89%E8%A3%851.jpg" loading="lazy"></p><p>选安装路径</p><p><img src="https://cdn.jsdelivr.net/gh/xiangge332/poto@latest/bolg/node%E5%AE%89%E8%A3%852.jpg" loading="lazy"></p><p>一直按next就行</p><p>在安装完成后打开命令行（windows键加R，输入cmd，回车）</p><p>输入</p><pre class="language-shell" data-language="shell"><code class="language-shell">node -v</code></pre><p>如果输出成功，会出现</p><pre class="language-shell" data-language="shell"><code class="language-shell">v 版本号比如 v14.17.1</code></pre><p>如果报错，请检查自己的环境变量或是否安装完成</p><p><a href="https://www.runoob.com/nodejs/nodejs-install-setup.html">详细安装教程</a></p><p>接下来安装git</p><p>点击<a href="https://git-scm.com/downloads">git官网</a></p><p>点击windows后会自动下载，因为一些原因，下载的很慢，要等一会</p><p>下载完成后点开</p><p>第一面点Next</p><p><img src="https://cdn.jsdelivr.net/gh/xiangge332/poto@latest/bolg/git2.jpg" loading="lazy"></p><p>选择自己的安装目录</p><p><img src="https://cdn.jsdelivr.net/gh/xiangge332/poto@latest/bolg/git3.jpg" loading="lazy"></p><p>这个选 Use Notepad as git’s default editor</p><p>其他的Next和Install 就行</p><p>安装好后打开命令行</p><p>输入</p><pre class="language-shell" data-language="shell"><code class="language-shell">git --version</code></pre><p>如果结果是 </p><pre class="language-shell" data-language="shell"><code class="language-shell">git version 2.32.0.windows.2</code></pre><p>那就行了</p><h2 id="配置node-js和安装hexo"><a href="#配置node-js和安装hexo" class="headerlink" title="配置node.js和安装hexo"></a>配置node.js和安装hexo</h2><p>仍然打开命令行</p><p>输入一下命令</p><pre class="language-shell" data-language="shell"><code class="language-shell">npm config set registry https:&#x2F;&#x2F;registry.npm.taobao.orgnpm install -g cnpm - -registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.orgcnpm install hexo-cli -g</code></pre><p>第一行意思是配置国内镜像（淘宝镜像）</p><p>第二行是下载cnpm</p><p>第三个是下载hexo</p><h2 id="使用hexo"><a href="#使用hexo" class="headerlink" title="使用hexo"></a>使用hexo</h2><p>输入一下命令（在你要创建的地方在上面路径处输入cmd）</p><pre class="language-she" data-language="she"><code class="language-she">hexo init 文件夹名字cd 你的文件夹名字cnpm install</code></pre><p>此时已经好了</p><p>但你要配置信息</p><p>进入 你的文件夹/_config.yml（用记事本打开）</p><p>有几个必填的</p><p>name为你的博客名字</p><p>subtitle为副标题</p><p>author为作者名字</p><p>language 输入zh-CN</p><p>tips:如何设置?</p><p>名字:值（比如: title:我）</p><p>你只需要写上值就行了</p><h2 id="写你的第一篇文章"><a href="#写你的第一篇文章" class="headerlink" title="写你的第一篇文章"></a>写你的第一篇文章</h2><p>在你的文件夹下输入命令</p><pre class="language-shell" data-language="shell"><code class="language-shell">hexo new 文章名字</code></pre><p>此时他会在你的 文件夹\source_posts\下生成一个 文件夹.md</p><p>我建议下一个Typora进行编写</p><p>使用方法请自行寻找</p><p>编写玩后保存</p><p>在你的网站文件夹下输入命令</p><pre class="language-shell" data-language="shell"><code class="language-shell">hexo s或者hexo server</code></pre><p>启动后会提示</p><pre class="language-shell" data-language="shell"><code class="language-shell">INFO  Start processingINFO  Hexo is running at http:&#x2F;&#x2F;localhost:4000 . Press Ctrl+C to stop.</code></pre><p>复制 <a href="http://localhost:4000/">http://localhost:4000</a> 并打开此网站</p><p>此时你有了个自己的博客!!</p><p> Ctrl+C结束运行</p><h2 id="上传至github"><a href="#上传至github" class="headerlink" title="上传至github"></a>上传至github</h2><p>现在这个博客只有你能进入</p><p>所以你需要一些方法让别人也能看见</p><p>正常的网站需要买域名加服务器</p><p>所幸github可以让你免费运行</p><p>首先登入<a href="https://github.com/">官网</a></p><p>点击右上角 Sign up 进行注册</p><p>你已经习惯了国内的注册要手机号了吧</p><p>但他不需要</p><p>他需要你的邮箱</p><p>你可以借助（百度）翻译完成注册</p><p>注册好后点击左边的New</p><p>设置如下</p><p><img src="https://cdn.jsdelivr.net/gh/xiangge332/poto@latest/bolg/github.jpg" loading="lazy"></p><p>点击Create repository</p><p>回到你的博客文件夹</p><p>修改_config.yml如下</p><pre class="language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">deploy</span><span class="token punctuation">:</span>  <span class="token key atrule">type</span><span class="token punctuation">:</span> git  <span class="token key atrule">repo</span><span class="token punctuation">:</span>  https<span class="token punctuation">:</span>//github.com/你的github名字/你的github名字.github.io.git  <span class="token key atrule">branch</span><span class="token punctuation">:</span> main</code></pre><p>之后打开命令行输入:</p><pre class="language-shell" data-language="shell"><code class="language-shell">hexo dhexo g</code></pre><p>如果有“Username for”和”Password for” 请输入你的github用户名（username）和密码（password）</p><p>让后你可以访问 你的github名字.github.io</p><h2 id="美化博客"><a href="#美化博客" class="headerlink" title="美化博客"></a>美化博客</h2><p><a href="https://hexo.io/themes/">官网</a></p><p>请参考 <a href="https://yun.yunyoujun.cn/guide/">https://yun.yunyoujun.cn/guide/</a></p><p>当然这也是我用的主题</p>]]></content>
+    
+    
+    <summary type="html">免费博客制作方法</summary>
+    
+    
+    
+    <category term="博客" scheme="https://xiangge332.top/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="博客" scheme="https://xiangge332.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="hexo" scheme="https://xiangge332.top/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一篇博客</title>
+    <link href="https://xiangge332.top/2021/07/19/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://xiangge332.top/2021/07/19/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
+    <published>2021-07-19T13:56:20.000Z</published>
+    <updated>2021-07-19T13:59:52.704Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="这是我的第一篇博客！！！"><a href="#这是我的第一篇博客！！！" class="headerlink" title="这是我的第一篇博客！！！"></a>这是我的第一篇博客！！！</h2><p>我好激动，</p><p>理论上这是永久的</p><p>他是托管在Github上的</p><p>他是用Hexo做的</p><p>使用了Yun模板</p><p>我没有要说的了</p><p>下篇见</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;这是我的第一篇博客！！！&quot;&gt;&lt;a href=&quot;#这是我的第一篇博客！！！&quot; class=&quot;headerlink&quot; title=&quot;这是我的第一篇博客！！！&quot;&gt;&lt;/a&gt;这是我的第一篇博客！！！&lt;/h2&gt;&lt;p&gt;我好激动，&lt;/p&gt;
+&lt;p&gt;理论上这是永久的&lt;/p&gt;
+&lt;p&gt;他</summary>
+      
+    
+    
+    
+    <category term="日常" scheme="https://xiangge332.top/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="日常" scheme="https://xiangge332.top/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+</feed>
